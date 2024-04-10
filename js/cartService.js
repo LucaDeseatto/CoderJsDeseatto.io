@@ -10,7 +10,7 @@ cuentaCarritoElement = document.querySelector(".cuenta-carrito"),
 reiniciar = document.querySelector("#reiniciar"),
 cartConteniner = document.querySelector("#cartcontainer")
 
-fetch('https://raw.githubusercontent.com/LucaDeseatto/CoderJs.github.io/master/db/data.json')
+fetch('https://github.com/LucaDeseatto/CoderJsDeseatto.io/blob/master/db/data.json')
 .then(response => response.json())
 .then(data => {
     console.log(data);
