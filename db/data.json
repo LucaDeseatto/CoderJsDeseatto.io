@@ -1,0 +1,51 @@
+[
+    {
+    "id":1,
+    "nombre":"Kid 1.0",
+    "precio":130700,
+    "img":"imagen1.jpg"
+    },
+    {
+    "id":2,
+    "nombre":"Kid 2.0",
+    "precio":345000,
+    "img":"imagen2.jpg"
+    },
+    {
+    "id":3,
+    "nombre":"Kid 3.0",
+    "precio":90000,
+    "img":"imagen3.jpg"
+    },
+    {
+    "id":4,
+    "nombre":"Kid 4.0",
+    "precio":500000,
+    "img":"imagen4.jpg"
+    },
+    {
+    "id":5,
+    "nombre":"Flash 1.0",
+    "precio":120000,
+    "img":"imagen5.jpg"
+    },
+    {
+    "id":6,
+    "nombre":"Super 2.0",
+    "precio":1800400,
+    "img":"imagen6.jpg"
+    },
+    {
+    "id":7,
+    "nombre":"Demo 3.0",
+    "precio":180200,
+    "img":"imagen7.jpg"
+    },
+    {
+    "id":8,
+    "nombre":"Hyper 4.0",
+    "precio":1954000,
+    "img":"imagen8.jpg"
+    }
+]
+
