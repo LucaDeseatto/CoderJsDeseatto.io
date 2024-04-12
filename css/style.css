@@ -96,21 +96,21 @@
   justify-items: center;
   gap: 5vw;
   margin: 3rem;
- 
 }
 
 .tarjeta-producto{
-  background-color: var(--color-acento-claro);
+  width: 280px;
+  height: 280px;
   text-align: center;
   padding: 10px;
-  max-width: 400px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  /* max-width: 300px; */
+  box-shadow: 0px 0px 5px #4d4bce;
   border-radius: 4px;
   transition: 200ms;
 }
 
 .tarjeta-producto:hover{
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2); */
   translate: 0px -5px;
 }
 
@@ -135,13 +135,12 @@
 
 #cartcontainer{
   max-width: 500px;
-  margin: auto;
+  /* margin: auto; */
 }
 
 .tarjeta-producto{
   display: flex;
   align-items: center;
-  height: 100px;
   gap: 20px;
 }
 
