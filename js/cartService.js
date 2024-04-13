@@ -37,7 +37,7 @@ function crearTarjetasProductosCarrito() {
       const nuevaBicicleta = document.createElement("div");
       nuevaBicicleta.classList = "tarjeta-producto";
       nuevaBicicleta.innerHTML = `
-      <img src="../img/${producto.img}" alt="${producto.nombre}">
+      <img src="./img/${producto.img}" alt="${producto.nombre}">
       <h3>${producto.nombre}</h3>
       <span>$${producto.precio}</span>
       <div>
@@ -154,6 +154,7 @@ function agregarAlCarrito(producto){
     console.log("Producto agregado al carrito:", nuevaMemoria);  // Log para verificar el producto agregado
 
     actualizarNumeroCarrito();
+    crearTarjetasProductosCarrito();
     return cantidadProductoFinal;
   }
 }
