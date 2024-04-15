@@ -103,14 +103,12 @@
   height: 280px;
   text-align: center;
   padding: 10px;
-  /* max-width: 300px; */
   box-shadow: 0px 0px 5px #4d4bce;
   border-radius: 4px;
   transition: 200ms;
 }
 
 .tarjeta-producto:hover{
-  /* box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2); */
   translate: 0px -5px;
 }
 
@@ -135,7 +133,7 @@
 
 #cartcontainer{
   max-width: 500px;
-   margin: auto; 
+  margin: auto; 
 }
 
 .tarjeta-producto{
