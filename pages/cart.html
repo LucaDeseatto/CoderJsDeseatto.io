@@ -6,6 +6,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Mini Bikes</title>
 	<link rel="stylesheet" href="../css/style.css">
+	<!--Link Sweetalert-->
+    <link href="
+      https://cdn.jsdelivr.net/npm/sweetalert2@11.10.7/dist/sweetalert2.min.css
+      " rel="stylesheet">
 </head>
 <body>
   <header>
@@ -23,22 +27,29 @@
 
 	<main>
 		<p id="carrito-vacio">Hey! El carrito está vacío, <a href="../index.html">elige algunos productos</a></p>
-		<section id="cartcontainer" class="tarjeta-producto" >
+
+		<section id="cartcontainer" >
 		</section>
+
 		<section id="totales">
 			<p>Total unidades: <span id="cantidad">0</span></p>
 			<p>Total precio: $<span id="precio">0</span></p>
-			<button disabled>Comprar</button>
-			<button id="reiniciar">Reiniciar</button>
+			<button id="comprar">Comprar</button>
+			<button id="reiniciar">Vaciar Carrito</button>
 		</section>
+		
 	</main>
 
 	<footer>
 		<p>Todos los derechos reservados</p>
 		<p>Hecho por Mini Bikes - LucaSX</p>
 	</footer>
-
-
+	
+	<!--Js sweetalert-->
+	<script src="
+	https://cdn.jsdelivr.net/npm/sweetalert2@11.10.7/dist/sweetalert2.all.min.js
+	"></script>
+	<!--JS-->
     <script src="../js/cartService.js"></script>
 </body>
 </html>
